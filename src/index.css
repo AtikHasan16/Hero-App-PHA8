@@ -14,5 +14,5 @@
 
 .active {
   color: #193cb8;
-  text-decoration: underline 2px;
+  border: 2px solid;
 }

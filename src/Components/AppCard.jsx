@@ -1,10 +1,11 @@
 import React from "react";
 import download from "../assets/icon-downloads.png";
 import ratingImg from "../assets/icon-ratings.png";
+import { Link } from "react-router";
 const AppCard = ({ data }) => {
   const {
     title,
-    // id,
+    id,
     image,
     downloads,
     ratingAvg,
@@ -14,7 +15,7 @@ const AppCard = ({ data }) => {
     // ratings,
   } = data;
   return (
-    <div>
+    <Link to={`/AppDetails/${id}`}>
       <div className="bg-white h-full shadow-md rounded-xl flex flex-col justify-between">
         <figure className="w-full mx-auto p-6">
           <img src={image} alt="App Icon" className="rounded-xl mx-auto" />
@@ -31,7 +32,7 @@ const AppCard = ({ data }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 

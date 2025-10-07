@@ -2,7 +2,7 @@ import React from "react";
 import Container from "./Container";
 import logo from "../assets/logo.png";
 import { Link, NavLink } from "react-router";
-import { AppWindow, Github, Home, Settings } from "lucide-react";
+import { AppWindow, Download, Github, Home, Settings } from "lucide-react";
 const Navbar = () => {
   const navLinks = (
     <div className="flex flex-col md:flex-row md:gap-10 font-bold ">
@@ -13,7 +13,7 @@ const Navbar = () => {
         <AppWindow></AppWindow> Apps
       </NavLink>
       <NavLink to={"/installation"} className={"btn md:btn-ghost text-lg"}>
-        <Settings></Settings> Installation
+        <Download></Download> Installation
       </NavLink>
     </div>
   );
