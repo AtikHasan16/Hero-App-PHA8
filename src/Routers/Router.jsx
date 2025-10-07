@@ -6,12 +6,12 @@ import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import axios from "axios";
 import AppDetails from "../Pages/AppDetails";
+import { LoaderIcon } from "lucide-react";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
-    errorElement: <ErrorPage></ErrorPage>,
 
     children: [
       {
@@ -19,10 +19,17 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => axios("/SoftwareData.json"),
+        hydrateFallbackElement: <h1 className="h-screen">Loading...</h1>,
       },
-      { path: "/apps", element: <Apps></Apps> },
+      {
+        path: "/apps",
+        element: <Apps></Apps>,
+        loader: () => axios("/SoftwareData.json"),
+        hydrateFallbackElement: <LoaderIcon></LoaderIcon>,
+      },
       { path: "/installation", element: <Installation></Installation> },
       { path: "/appDetails/:appId", element: <AppDetails /> },
+      { path: "*", element: <ErrorPage></ErrorPage> },
     ],
   },
 ]);

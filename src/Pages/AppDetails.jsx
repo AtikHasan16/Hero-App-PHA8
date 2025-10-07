@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../Components/Container";
 import { useLocation } from "react-router";
 import download from "../assets/icon-downloads.png";
@@ -15,10 +15,10 @@ import {
 
 const AppDetails = () => {
   const location = useLocation();
-  //   console.log(location.state);
+  const [install, setInstall] = useState(false);
   const {
     title,
-    id,
+    // id,
     image,
     downloads,
     ratingAvg,
@@ -28,7 +28,10 @@ const AppDetails = () => {
     ratings,
     size,
   } = location.state;
-
+  const handleInstall = () => {
+    setInstall(true);
+    setDataToLocal();
+  };
   return (
     <div className=" bg-gray-100 py-20 font-inter">
       <Container>
@@ -72,9 +75,15 @@ const AppDetails = () => {
                 </div>
               </div>
               <div className="py-10  ">
-                <button className="btn btn-xl border-0 bg-linear-30 from-blue-800 to-purple-700  rounded-xl p-0 shadow-md">
-                  <span className="skeleton btn btn-xl text-white bg-transparent border-0 ">
-                    Install Now ({size}MB)
+                <button
+                  onClick={() => handleInstall()}
+                  className="btn btn-xl border-0 bg-linear-30 from-blue-800 to-purple-700  rounded-xl p-0 shadow-md"
+                >
+                  <span
+                    className={`skeleton btn btn-xl text-white bg-transparent border-0
+                      `}
+                  >
+                    {install ? "Installed" : `Install Now (${size}MB)`}
                   </span>
                 </button>
               </div>

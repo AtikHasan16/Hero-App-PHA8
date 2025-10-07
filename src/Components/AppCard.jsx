@@ -16,7 +16,7 @@ const AppCard = ({ data }) => {
   } = data;
   return (
     <Link to={`/AppDetails/${id}`} state={data}>
-      <div className="bg-white h-full shadow-md rounded-xl flex flex-col justify-between">
+      <div className="bg-white h-full shadow-md rounded-xl flex flex-col justify-between hover:scale-105 transition duration-300">
         <figure className="w-full mx-auto p-6">
           <img src={image} alt="App Icon" className="rounded-xl mx-auto" />
         </figure>

@@ -8,12 +8,15 @@ import AppContainer from "../Components/AppContainer";
 const Home = () => {
   const appData = useLoaderData();
   const appForHome = appData.data.slice(0, 8);
-  console.log(appData.data);
+  //   console.log(appData.data);
 
   return (
     <div className="bg-gray-100">
       <Banner></Banner>
-      <AppContainer appForHome={appForHome}></AppContainer>
+      <AppContainer
+        key={appForHome.length}
+        appForHome={appForHome}
+      ></AppContainer>
     </div>
   );
 };
