@@ -4,7 +4,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-linear-180 from-blue-900 to-black purple-900 text-white p-10">
+    <footer className="footer footer-horizontal footer-center bg-linear-180 from-blue-900 to-black purple-900 text-white p-10 h-85">
       <aside>
         <figure className="w-20">
           <img src={logo} alt="" />

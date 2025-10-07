@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="bg-white">
       <Container>
-        <div className="navbar bg-base-100 font-inter">
+        <div className="navbar px-0 bg-base-100 font-inter">
           <div className="navbar-start">
             <div className="dropdown pr-4">
               <div
