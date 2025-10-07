@@ -1,8 +1,9 @@
 # 🚀 My Web Project
 
-**App Name: HeroApp**
+# App Name: HeroApp
 
-    **_description: A responsive, modern app catalogue that lets users explore, install, and manage apps with smooth navigation, charts, and polished UI. Built with React, Router, Tailwind, daisyUI, Lucide icons, and Recharts, it’s optimized for production and designed to be error-free after deployment._**
+**description: A responsive, modern app catalogue that lets users explore, install, and manage apps with smooth navigation, charts, and polished UI. Built with React, Router, Tailwind, daisyUI, Lucide icons, and Recharts, it’s optimized for production and designed to be error-free after deployment.**
+
 
 A modern web application built using:
 
