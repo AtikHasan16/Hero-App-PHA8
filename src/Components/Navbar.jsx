@@ -2,18 +2,18 @@ import React from "react";
 import Container from "./Container";
 import logo from "../assets/logo.png";
 import { Link, NavLink } from "react-router";
-import { Github } from "lucide-react";
+import { AppWindow, Github, Home, Settings } from "lucide-react";
 const Navbar = () => {
   const navLinks = (
-    <div className="flex flex-col md:flex-row md:gap-10 font-bold">
-      <NavLink to={"/"} className={"btn md:btn-ghost"}>
-        Home
+    <div className="flex flex-col md:flex-row md:gap-10 font-bold ">
+      <NavLink to={"/"} className={"btn md:btn-ghost text-lg"}>
+        <Home></Home> Home
       </NavLink>
-      <NavLink to={"/apps"} className={"btn md:btn-ghost"}>
-        Apps
+      <NavLink to={"/apps"} className={"btn md:btn-ghost text-lg"}>
+        <AppWindow></AppWindow> Apps
       </NavLink>
-      <NavLink to={"/installation"} className={"btn md:btn-ghost"}>
-        Installation
+      <NavLink to={"/installation"} className={"btn md:btn-ghost text-lg"}>
+        <Settings></Settings> Installation
       </NavLink>
     </div>
   );
@@ -22,7 +22,7 @@ const Navbar = () => {
       <Container>
         <div className="navbar bg-base-100 font-inter">
           <div className="navbar-start">
-            <div className="dropdown">
+            <div className="dropdown pr-4">
               <div
                 tabIndex={0}
                 role="button"
@@ -53,7 +53,7 @@ const Navbar = () => {
             </div>
             <Link
               to={"/"}
-              className=" flex items-center justify-center font-bold text-2xl text-blue-800"
+              className=" flex items-center justify-center font-bold gap-2 text-3xl text-blue-800"
             >
               <img src={logo} className="w-10" alt="" />
               HeroApp
