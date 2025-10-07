@@ -4,6 +4,14 @@ import { useLocation } from "react-router";
 import download from "../assets/icon-downloads.png";
 import ratingImg from "../assets/icon-ratings.png";
 import reviewImg from "../assets/icon-review.png";
+import {
+  Bar,
+  BarChart,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 
 const AppDetails = () => {
   const location = useLocation();
@@ -20,15 +28,14 @@ const AppDetails = () => {
     ratings,
     size,
   } = location.state;
-  console.log(location.state);
 
   return (
     <div className=" bg-gray-100 py-20 font-inter">
       <Container>
         <div className="pb-10">
           <div className="flex flex-col md:flex-row justify-start gap-10">
-            <figure className="bg-white w-fit rounded-2xl p-4 shadow-xl">
-              <img src={image} className="" alt="" />
+            <figure className="bg-white h-fit w-fit rounded-2xl p-4 shadow-xl flex-1/3">
+              <img src={image} className="mx-auto" alt="" />
             </figure>
             <div className="w-full">
               <div>
@@ -75,10 +82,34 @@ const AppDetails = () => {
           </div>
         </div>
         <div className="flex w-full flex-col ">
-          <div className="divider "></div>
+          <div className="divider text-blue"></div>
         </div>
         <div>
           <h1 className="text-2xl font-bold">Ratings</h1>
+        </div>
+        <div style={{ width: "100%", height: 300 }}>
+          <ResponsiveContainer>
+            <BarChart
+              layout="vertical" // 👈 this makes it horizontal
+              data={ratings}
+              margin={{ top: 10, right: 20, left: 0, bottom: 0 }}
+            >
+              <XAxis type="number" /> {/* numeric axis (horizontal) */}
+              <YAxis dataKey="name" type="category" />{" "}
+              {/* categories (vertical) */}
+              <Tooltip />
+              <Bar
+                dataKey="count"
+                fill="#193cb8"
+                barSize={30}
+                radius={[0, 10, 10, 0]}
+                isAnimationActive={true}
+                animationDuration={1000}
+                animationBegin={0}
+                animationEasing="ease-out"
+              />
+            </BarChart>
+          </ResponsiveContainer>
         </div>
       </Container>
     </div>
