@@ -111,6 +111,13 @@ const AppDetails = () => {
             </BarChart>
           </ResponsiveContainer>
         </div>
+        <div className="flex w-full flex-col py-10">
+          <div className="divider text-blue"></div>
+        </div>
+        <div className="space-y-6">
+          <h1 className="text-2xl font-bold ">Description</h1>
+          <p className="font-semibold text-[#627382]">{description}</p>
+        </div>
       </Container>
     </div>
   );
