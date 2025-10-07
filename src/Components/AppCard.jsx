@@ -1,19 +1,34 @@
 import React from "react";
-
+import download from "../assets/icon-downloads.png";
+import ratingImg from "../assets/icon-ratings.png";
 const AppCard = ({ data }) => {
-  const { title, id, image, size, download, ratingAvg } = data;
+  const {
+    title,
+    // id,
+    image,
+    downloads,
+    ratingAvg,
+    // companyName,
+    // description,
+    // review,
+    // ratings,
+  } = data;
   return (
     <div>
-      <div className="card bg-white shadow-md ">
-        <figure className="p-2 w-[300px] h-[300px] mx-auto">
-          <img src={image} alt="App Icon" className="rounded-xl" />
+      <div className="bg-white h-full shadow-md rounded-xl flex flex-col justify-between">
+        <figure className="w-full mx-auto p-6">
+          <img src={image} alt="App Icon" className="rounded-xl mx-auto" />
         </figure>
-        <div className="card-body items-center text-center">
-          <h2 className="card-title">{title}</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
+        <div className="p-4 space-y-4">
+          <h2 className="text-xl font-semibold">{title}</h2>
+          <div className="flex justify-between">
+            <p className="btn text-green-700 border-0 rounded-2xl">
+              <img src={download} width={"14px"} alt="" /> {downloads}
+            </p>
+            <p className="btn text-orange-400 border-0 rounded-2xl">
+              <img src={ratingImg} width={"14px"} alt="" /> {ratingAvg}
+            </p>
+          </div>
         </div>
       </div>
     </div>
