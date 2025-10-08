@@ -11,6 +11,13 @@ const Installation = () => {
   }, []);
   const handleSort = (type) => {
     setSort(type);
+    if (sort === "High - Low") {
+      const sortedCard = showInstalled.sort((a, b) => b.size - a.size);
+      setShowInstalled(sortedCard);
+    } else {
+      const sortedCard = showInstalled.sort((a, b) => a.size - b.size);
+      setShowInstalled(sortedCard);
+    }
   };
   return (
     <div className="bg-gray-100  py-20 font-inter">
@@ -26,8 +33,8 @@ const Installation = () => {
             ({showInstalled.length}) Apps Found
           </h2>
           <div className="dropdown dropdown-center">
-            <div tabIndex={0} role="button" className="btn m-1">
-              {sort ? sort : "Sort by Size"}
+            <div tabIndex={0} role="button" className="btn m-1 rounded-xl">
+              {sort ? sort : "Sort by Size"} <ArrowBigDown />
             </div>
             <ul
               tabIndex={0}
@@ -36,7 +43,7 @@ const Installation = () => {
               <li>
                 <button
                   onClick={() => handleSort("High - Low")}
-                  className="btn"
+                  className="btn  btn-ghost"
                 >
                   Size : High - Low
                 </button>
@@ -44,7 +51,7 @@ const Installation = () => {
               <li>
                 <button
                   onClick={() => handleSort("Low - High")}
-                  className="btn"
+                  className="btn btn-ghost"
                 >
                   Size : low - High
                 </button>

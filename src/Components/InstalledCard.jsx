@@ -31,7 +31,7 @@ const InstalledCard = ({ installData, showInstalled, setShowInstalled }) => {
           </figure>
           <div className="space-y-4">
             <h1 className="text-2xl font-bold ml-4">{installData.title}</h1>
-            <div className="flex justify-between gap-4">
+            <div className="flex flex-col sm:flex-row justify-between gap-4">
               <p className="btn  text-green-700 border-0 rounded-2xl">
                 <img src={download} width={"14px"} alt="" />{" "}
                 {installData.downloads}
@@ -39,6 +39,9 @@ const InstalledCard = ({ installData, showInstalled, setShowInstalled }) => {
               <p className="btn text-orange-400 border-0 rounded-2xl">
                 <img src={ratingImg} width={"14px"} alt="" />{" "}
                 {installData.ratingAvg}
+              </p>
+              <p className="btn text-blue-400 border-0 rounded-2xl">
+                {installData.size} MB
               </p>
             </div>
           </div>
