@@ -7,7 +7,6 @@ import LoadingSpinner from "../LoadingPage/LoadingSpinner";
 
 const MainLayout = () => {
   const navigation = useNavigation();
-  console.log(navigation.state);
 
   const [loading, setLoading] = useState(false);
   useEffect(() => {
