@@ -214,5 +214,365 @@
       { "name": "4 star", "count": 3500 },
       { "name": "5 star", "count": 4200 }
     ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/shopping-cart.png",
+    "title": "ShopEase",
+    "companyName": "RetailX",
+    "id": 13,
+    "description": "ShopEase is a smart shopping app with price tracking, coupons, and personalized deals.",
+    "size": 45,
+    "reviews": 21000,
+    "ratingAvg": 4.4,
+    "downloads": 90,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/thumbnails/047/240/020/small_2x/graphics-white-red-black-educational-logo-png.png",
+    "title": "EduQuest",
+    "companyName": "BrightFuture",
+    "id": 14,
+    "description": "EduQuest is a dynamic and engaging learning platform designed for the modern lifelong learner. It transforms education into an adventure by offering a vast library of interactive courses spanning technology, arts, business, and personal development. At its core, EduQuest leverages gamification to motivate users, incorporating points, badges, and leaderboards to celebrate progress and foster healthy competition. Each course is broken down into bite-sized, mobile-friendly lessons that can be completed on the go, making learning accessible anytime, anywhere. The platform’s adaptive learning engine personalizes the educational journey for each user, analyzing performance on quizzes and interactive exercises to recommend content that addresses individual knowledge gaps and reinforces strengths. Progress tracking is both comprehensive and intuitive, with visual dashboards that display course completion, skill mastery, and time spent learning. EduQuest emphasizes active learning through a variety of formats, including video tutorials, hands-on projects, peer-reviewed assignments, and simulated real-world challenges. The app also cultivates a vibrant community where learners can connect with peers, join study groups, and participate in live Q&A sessions with expert instructors. For those seeking formal recognition, EduQuest partners with accredited institutions to offer verifiable certificates upon course completion. The app operates on a freemium model, providing access to a wide range of introductory courses for free, while a premium subscription unlocks the full course catalog, advanced analytics, personalized coaching, and certification opportunities. With a commitment to accessibility, EduQuest features high-contrast modes, screen reader support, and captioned videos, ensuring that knowledge is within everyone’s reach. It is the ideal companion for professionals looking to upskill, students seeking supplemental learning, and curious minds eager to explore new passions.",
+    "size": 38,
+    "reviews": 12500,
+    "ratingAvg": 4.6,
+    "downloads": 55,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/meal.png",
+    "title": "MealPlanner",
+    "companyName": "NutriTech",
+    "id": 15,
+    "description": "MealPlanner is an intelligent culinary assistant designed to simplify home cooking, reduce food waste, and help users achieve their health and nutrition goals. The app takes the guesswork out of the daily question of 'what's for dinner?' by generating personalized weekly meal plans based on dietary preferences, allergies, budget, and available cooking time. Users can choose from a vast, curated database of thousands of recipes, filtering by cuisine, difficulty, or specific nutritional targets like low-carb, high-protein, or vegan. Once a plan is set, MealPlanner automatically creates a smart, categorized grocery list that can be shared with family members or sent directly to online grocery delivery services. A key feature is the virtual pantry, which allows users to track ingredients they already have on hand. The app then prioritizes recipes that use up these items first, minimizing waste and saving money. For each recipe, MealPlanner provides clear, step-by-step instructions, complete with integrated timers and video guides for complex techniques. The nutrition tracking is seamless, offering a detailed breakdown of calories, macronutrients, and micronutrients for every meal and day, with visual charts to monitor progress toward goals. The app also supports custom recipe creation, allowing users to import their favorite dishes from the web or add their own family classics. Social features enable sharing meal plans and recipe collections with friends for inspiration and accountability. The free version offers basic meal planning and recipe discovery, while a premium subscription unlocks advanced features like the virtual pantry, unlimited custom plans, detailed nutritional analytics, and integration with fitness trackers to sync calorie targets. MealPlanner is perfect for busy families, health-conscious individuals, and anyone looking to bring more organization and joy to their kitchen.",
+    "size": 20,
+    "reviews": 8900,
+    "ratingAvg": 4.3,
+    "downloads": 40,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "https://static.vecteezy.com/system/resources/previews/024/825/193/non_2x/3d-weather-icon-day-with-rain-free-png.png",
+    "title": "Weatherly",
+    "companyName": "SkyCast",
+    "id": 16,
+    "description": "Weatherly is a beautifully designed and highly accurate weather application that provides hyper-local forecasts to keep you prepared for any condition. Leveraging a multi-source data strategy that combines leading global and regional weather models, Weatherly delivers down-to-the-minute precipitation predictions and precise temperature, wind, and humidity readings for your exact location. Its standout feature is the proactive severe weather alert system, which sends timely, customizable notifications for approaching storms, lightning, hail, and other critical events, giving you the crucial time needed to stay safe. The app features stunning, high-resolution radar maps with multiple layers, allowing users to visualize storm tracks, precipitation intensity, wind patterns, and cloud cover with fluid animation. The intuitive interface presents complex data in a clean, easy-to-read format, including hourly and 10-day forecasts, 'feels like' temperatures, UV index, and air quality reports. For outdoor enthusiasts, Weatherly offers specialized forecasts for activities like hiking, running, and fishing, providing insights on optimal times and potential weather-related challenges. The app also includes a unique 'Time Travel' feature, enabling users to check historical weather data for any date and location, perfect for planning events or satisfying curiosity. Privacy is a cornerstone of Weatherly’s design; location data is used only for forecasting and is never sold or shared. The free version is ad-supported and includes all essential forecasting tools. A premium subscription offers an ad-free experience, advanced radar layers, extended forecasts, and customizable alert thresholds. Whether you're a daily commuter, a parent planning a weekend, or a storm chaser, Weatherly provides the reliable, detailed, and user-friendly weather intelligence you need to navigate your day with confidence.",
+    "size": 28,
+    "reviews": 17500,
+    "ratingAvg": 4.5,
+    "downloads": 80,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/security-checked.png",
+    "title": "SecureVault",
+    "companyName": "SafeNet",
+    "id": 17,
+    "description": "SecureVault is a state-of-the-art digital vault engineered to protect your most sensitive information with uncompromising security. Built on a zero-knowledge architecture, the app ensures that only you can access your data; not even the team at SafeNet can view your stored information. All data is protected on your device by military-grade AES-256 bit encryption before being synced to the cloud, providing a robust defense against breaches. SecureVault goes beyond simple password management, offering a comprehensive solution for storing a wide range of confidential data, including credit card details, bank accounts, software licenses, secure notes, and digital copies of important documents like passports and IDs. Its powerful password manager includes a strong password generator to create un-guessable credentials and an auto-fill feature that seamlessly logs you into websites and apps across all your devices. A key feature is the Security Dashboard, which actively monitors your stored passwords for weaknesses, reuse, and exposure in known data breaches, prompting you to take action to fortify your digital identity. SecureVault also facilitates secure sharing, allowing you to grant trusted contacts temporary or permanent access to specific items in your vault with end-to-end encryption. For long-term planning, the app includes a Digital Legacy feature, enabling you to designate an emergency contact who can request access to your vault in the event you are unable to. The app is designed with a clean, intuitive interface that makes organizing and finding your information effortless. A free tier provides unlimited password storage on a single device, while the premium subscription unlocks cross-device sync, advanced security monitoring, encrypted file storage, and priority support. SecureVault is the essential tool for anyone serious about safeguarding their digital life.",
+    "size": 16,
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": 48,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 5900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/heart-with-pulse.png",
+    "title": "HealthSync",
+    "companyName": "WellnessWorks",
+    "id": 18,
+    "description": "HealthSync is a comprehensive health and wellness hub that unifies data from your wearable devices and health apps to provide a holistic view of your well-being. The app seamlessly integrates with a wide range of fitness trackers, smartwatches, and smart scales, automatically syncing key metrics like heart rate, steps, sleep cycles, blood oxygen levels, and body composition. Instead of juggling multiple apps, HealthSync presents all your information in a single, intuitive dashboard, making it easy to spot trends, correlations, and progress over time. The app’s powerful analytics engine goes beyond raw data, offering personalized insights and actionable recommendations. It can identify how sleep quality impacts your next-day energy levels, how workout intensity affects your resting heart rate, and how consistent activity contributes to long-term health goals. The sleep tracking module is particularly advanced, providing detailed analysis of your sleep stages (light, deep, REM) and offering evidence-based tips to improve sleep hygiene. HealthSync also includes features for manual logging of nutrition, mood, and symptoms, allowing you to build a complete picture of your health. Users can set personalized goals for activity, sleep, and other metrics, and the app provides gentle nudges and motivational messages to keep you on track. For those managing chronic conditions, HealthSync allows for the tracking of custom metrics and the generation of exportable health reports that can be shared with healthcare providers. Privacy is paramount, and users have granular control over what data is synced and shared. The core features are free, while a premium subscription unlocks advanced analytics, long-term trend reports, and personalized wellness plans developed by health experts. HealthSync is the ultimate companion for anyone looking to take a data-driven approach to understanding and improving their physical and mental health.",
+    "size": 34,
+    "reviews": 14200,
+    "ratingAvg": 4.6,
+    "downloads": 65,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/chat.png",
+    "title": "ChatConnect",
+    "companyName": "SocialSphere",
+    "id": 19,
+    "description": "ChatConnect is a secure and feature-rich messaging application designed for private and seamless communication. With end-to-end encryption as its foundation, every message, call, and file shared is protected, ensuring that your conversations remain confidential and accessible only to you and your intended recipients. The app boasts a clean, intuitive interface that makes staying in touch effortless. Beyond standard text messaging, ChatConnect offers high-quality voice and video calls, both for one-on-one conversations and large groups. The group call feature supports dozens of participants with stable performance, making it ideal for connecting with family, friends, or colleagues. To help users express themselves, the app includes a vast and growing library of animated stickers, GIFs, and custom emojis, with the ability to create your own sticker packs. ChatConnect also supports robust file sharing, allowing you to send photos, videos, documents, and other files of large sizes without compromising quality. A key feature is the 'Disappearing Messages' option, which lets you set a timer for messages to be automatically deleted from a chat, adding an extra layer of privacy. The app also includes advanced group chat management tools, such as admin controls, polls, and event scheduling, making it perfect for organizing activities or gathering opinions. For a more personalized experience, users can customize chat backgrounds, notification sounds, and color themes. ChatConnect is completely free and ad-free, with its development supported by optional cosmetic purchases and a future business-focused platform. It is available on all major mobile and desktop platforms with seamless multi-device sync, so you never miss a message. ChatConnect is the ideal choice for users who prioritize privacy without sacrificing the fun and functionality of a modern messaging app.",
+    "size": 42,
+    "reviews": 25000,
+    "ratingAvg": 4.4,
+    "downloads": 120,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/video.png",
+    "title": "StreamFlix",
+    "companyName": "MediaHub",
+    "id": 20,
+    "description": "StreamFlix is a premium streaming service that offers a vast and diverse library of movies, TV shows, documentaries, and exclusive original content. Designed for the ultimate cinematic experience, the app provides high-definition and 4K Ultra HD streaming with support for Dolby Atmos audio, bringing your entertainment to life. The heart of StreamFlix is its powerful recommendation engine, which analyzes your viewing habits to curate a personalized home screen filled with content tailored to your tastes. This ensures you spend less time searching and more time discovering your next favorite show or movie. The platform features a user-friendly interface that makes navigation a breeze, with curated collections, genre categories, and a powerful search function. One of its most valued features is the ability to download content for offline viewing, allowing you to enjoy entertainment on planes, subways, or anywhere without a reliable internet connection. StreamFlix supports multiple user profiles within a single account, each with its own viewing history, recommendations, and watchlist, making it perfect for families. Comprehensive parental controls allow guardians to create a safe viewing environment for children by setting content ratings and PIN-protecting profiles. The service is available on a wide array of devices, including smart TVs, streaming media players, game consoles, smartphones, and tablets, with seamless playback synchronization across all of them. You can start watching on your TV and pick up right where you left off on your phone. StreamFlix operates on a subscription-based model with multiple tiers, offering different levels of stream quality and simultaneous screens to fit various needs and budgets. With a constant influx of new releases and a deep catalog of timeless classics, StreamFlix is the go-to destination for high-quality, on-demand entertainment.",
+    "size": 60,
+    "reviews": 32000,
+    "ratingAvg": 4.7,
+    "downloads": 150,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 17000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/airplane-take-off.png",
+    "title": "FlyAway",
+    "companyName": "SkyJet",
+    "id": 21,
+    "description": "FlyAway is an all-in-one travel companion that simplifies the process of booking flights and managing your journey from start to finish. The app empowers travelers by providing a powerful flight search engine that compares prices across hundreds of airlines and online travel agencies, ensuring you find the best possible deal. Its flexible search options allow you to look for flights with specific layovers, airlines, or cabin classes, and its 'Explore' feature lets you discover affordable destinations from your home airport. A standout feature of FlyAway is its intelligent price tracking. Simply set an alert for a desired route, and the app will notify you in real-time when the fare drops, so you can book at the optimal moment. Once your flight is booked, FlyAway becomes your personal travel assistant. It automatically organizes all your travel details into a neat, chronological itinerary, including flight numbers, gate information, and hotel reservations. The app provides real-time flight status updates, sending push notifications for delays, gate changes, or cancellations, keeping you informed every step of the way. It also features airport maps and guides to help you navigate terminals with ease. For added convenience, FlyAway includes a document scanner to securely store digital copies of your passport, visas, and other important travel documents. The app also offers integrated booking for hotels and rental cars, allowing you to manage your entire trip within a single platform. With a clean, user-friendly interface and offline access to your itineraries, FlyAway is designed to reduce travel stress. The app is free to use, with revenue generated from booking commissions. FlyAway is the essential tool for both frequent flyers and casual vacationers who want a smarter, more organized travel experience.",
+    "size": 55,
+    "reviews": 11000,
+    "ratingAvg": 4.3,
+    "downloads": 52,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5100 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/paint-palette.png",
+    "title": "Artify",
+    "companyName": "CreativeHub",
+    "id": 22,
+    "description": "Artify is a powerful and intuitive digital drawing and painting application designed for artists of all skill levels. Whether you're a professional illustrator, a hobbyist, or a beginner taking your first steps into digital art, Artify provides a comprehensive suite of tools in a beautifully streamlined interface. The app features an advanced brush engine with a vast library of fully customizable brushes, from realistic pencils and watercolors to complex textural and special effect brushes. Users can fine-tune every aspect of a brush, including pressure sensitivity, texture, and blending modes, and can even create and save their own unique brushes. Artify supports a robust layer system, allowing for non-destructive editing with unlimited layers, grouping, and a wide range of blend modes. This gives artists the flexibility to experiment and build complex compositions with ease. For precision work, the app includes advanced selection tools, transformation controls, and perspective guides. A standout feature is the AI-assisted art generation, which can be used as a creative partner. It can suggest color palettes, generate background textures, or even help overcome creative blocks by providing inspirational starting points based on simple text prompts, all while giving the artist full control over the final output. The app is optimized for performance, ensuring a smooth, lag-free drawing experience even on large canvases with many layers. It supports a wide range of file formats, including PSD, for seamless integration with desktop workflows. The free version offers a generous set of core tools and brushes. A one-time purchase or subscription unlocks the full brush library, advanced AI features, time-lapse video recording of your creative process, and premium cloud storage for syncing projects across devices. Artify is the ultimate mobile studio for bringing your creative visions to life.",
+    "size": 70,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 38,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/brain.png",
+    "title": "MindSpark",
+    "companyName": "NeuroTech",
+    "id": 23,
+    "description": "MindSpark is a comprehensive brain-training application designed to challenge and entertain your mind while helping to improve cognitive skills. Developed in collaboration with neuroscientists, the app offers a wide array of fun and engaging games, each targeting specific cognitive functions such as memory, attention, problem-solving, processing speed, and mental flexibility. The core of MindSpark is a personalized daily training program that adapts to your individual performance. Each day, you are presented with a fresh set of games tailored to your current skill level, ensuring that you are always challenged but never overwhelmed. The app tracks your progress over time, providing detailed performance charts and a 'MindSpark Quotient' (MSQ) that gives you a benchmark of your cognitive strengths and areas for improvement. The game library is diverse and constantly expanding, featuring everything from rapid-fire calculation puzzles and spatial reasoning challenges to verbal fluency exercises and working memory tests. The design is clean and encouraging, with a focus on making cognitive exercise a rewarding daily habit rather than a chore. In addition to the daily workout, users can explore the full game library at their leisure, practice specific skills, and compare their scores with a global community of users. MindSpark also includes mindfulness and focus exercises, recognizing the critical link between a calm mind and peak cognitive performance. The app operates on a freemium model, where the free version provides access to a limited number of games and basic progress tracking. A premium subscription unlocks the full suite of over 50 games, personalized daily workouts, in-depth performance analysis, and access to exclusive content on cognitive health. MindSpark is the perfect tool for anyone looking to keep their mind sharp, challenge their intellect, and invest in their long-term brain health in a fun and accessible way.",
+    "size": 22,
+    "reviews": 9600,
+    "ratingAvg": 4.4,
+    "downloads": 42,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/car.png",
+    "title": "RideNow",
+    "companyName": "UrbanMove",
+    "id": 24,
+    "description": "RideNow is a smart and reliable ride-hailing application that connects passengers with nearby drivers for fast, safe, and affordable transportation. With a focus on user experience, the app makes booking a ride simple and intuitive. Just open the app, set your destination, and see real-time fare estimates for various ride options, from budget-friendly solo trips to spacious XL vehicles for groups. The app's intelligent dispatch algorithm ensures that the closest available driver is assigned to you, minimizing wait times. A key feature is the live-tracking map, which allows you to watch your driver's approach in real-time and provides an accurate estimated time of arrival. Safety is a top priority for RideNow. All drivers undergo a thorough background check and vehicle inspection process. During your trip, you can share your ride status and location with trusted contacts, and an in-app emergency button is available to connect you with local authorities if needed. The app also features a two-way rating system to maintain a high-quality and respectful community of both riders and drivers. For cost-conscious commuters, RideNow offers a carpool option, allowing you to share your ride with others heading in the same direction for a significantly lower fare. The app supports multiple payment methods, including credit/debit cards, digital wallets, and in-app cash payments, with all transactions being secure and transparent. A detailed trip history and digital receipts are available for easy expense tracking. RideNow is committed to sustainability, offering an 'Eco' ride option that prioritizes hybrid and electric vehicles where available. With its user-friendly design, upfront pricing, and robust safety features, RideNow is the go-to solution for navigating your city with ease and confidence.",
+    "size": 48,
+    "reviews": 18700,
+    "ratingAvg": 4.3,
+    "downloads": 95,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7200 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/restaurant.png",
+    "title": "FoodieGo",
+    "companyName": "DineTech",
+    "id": 25,
+    "description": "FoodieGo is the ultimate food delivery and restaurant discovery app, designed to connect you with the best local culinary experiences. Whether you're craving a quick bite, a gourmet meal, or groceries delivered to your door, FoodieGo makes it happen with just a few taps. The app features an extensive selection of restaurants, from popular chains to hidden neighborhood gems, offering a wide variety of cuisines to satisfy any craving. The intuitive interface allows you to easily browse menus, view high-quality photos of dishes, and read authentic user reviews and ratings to help you make the perfect choice. Once you've made your selection, the ordering process is seamless. You can customize your order, add special instructions, and pay securely within the app using a credit card, digital wallet, or other integrated payment options. A standout feature is the real-time delivery tracking, which lets you watch your order's journey from the restaurant kitchen to your doorstep on a live map, complete with an accurate ETA. Beyond delivery, FoodieGo is a powerful tool for discovering new dining spots. The 'Discover' tab highlights trending restaurants, new openings, and exclusive deals in your area. You can filter your search by cuisine, price range, rating, or specific dietary needs like vegan or gluten-free. The app also allows you to book a table for dine-in experiences, making it a versatile companion for any food-related occasion. For frequent users, a 'FoodieGo+' subscription offers benefits like free delivery on eligible orders, exclusive discounts, and priority customer support. With its vast selection, user-friendly design, and reliable service, FoodieGo is your one-stop shop for satisfying your hunger and exploring the vibrant food scene around you.",
+    "size": 36,
+    "reviews": 22000,
+    "ratingAvg": 4.5,
+    "downloads": 120,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/medal.png",
+    "title": "GoalGetter",
+    "companyName": "Motiva",
+    "id": 26,
+    "description": "GoalGetter is a beautifully simple yet powerful goal-setting and habit-tracking application designed to help you turn your aspirations into achievements. The app is built on the principle that breaking down large goals into small, manageable steps is the key to success. With GoalGetter, you can set ambitious personal and professional goals—from learning a new skill to running a marathon—and then define the concrete, actionable tasks required to reach them. The interface is clean and motivational, allowing you to visualize your progress with satisfying completion animations and progress bars. A core feature is the flexible reminder system, which lets you set customizable notifications for each task or habit, ensuring you stay on track without feeling overwhelmed. You can schedule reminders for specific times, on certain days of the week, or even based on your location. GoalGetter also includes a powerful habit tracker that helps you build positive routines. You can monitor your streaks, view your success rate over time with insightful charts, and write journal entries to reflect on your journey. The app encourages consistency by celebrating milestones and sending motivational quotes to keep your spirits high. For more complex projects, you can create nested sub-goals and add detailed notes or checklists to each one. GoalGetter also supports collaboration, allowing you to share specific goals with friends, family, or mentors for added accountability and support. The app is designed to be a private and personal space, with all your data stored securely on your device and synced via your private cloud account. The free version offers all the essential tools for setting and tracking a limited number of goals. A premium subscription unlocks unlimited goals, advanced analytics, data export, and additional customization options. GoalGetter is the perfect partner for anyone ready to stop dreaming and start doing.",
+    "size": 18,
+    "reviews": 7400,
+    "ratingAvg": 4.2,
+    "downloads": 30,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://png.pngtree.com/png-clipart/20211128/original/pngtree-vector-graphic-illustration-of-virtual-reality-meta-vr-png-image_6952272.png",
+    "title": "VRWorld",
+    "companyName": "ImmersiTech",
+    "id": 27,
+    "description": "VRWorld is a gateway to a universe of breathtaking virtual reality experiences, offering a curated platform for immersive games, interactive educational content, and stunning virtual tours. Designed for use with leading VR headsets, the app transports you to new dimensions, from the depths of the ocean to the far reaches of the galaxy. At its core, VRWorld serves as a discovery hub, featuring a carefully selected library of high-quality VR content. The platform showcases everything from fast-paced action games and mind-bending puzzles to serene meditation environments and collaborative social spaces. The 'Virtual Tours' feature is a highlight, allowing users to explore meticulously recreated global landmarks, wander through world-class museums, and visit natural wonders, all from the comfort of their home. These tours are enhanced with interactive elements and expert audio guides, providing a rich and educational experience. For gamers, VRWorld offers a diverse portfolio of titles that leverage the full potential of virtual reality, emphasizing intuitive motion controls and a strong sense of presence. The social VR feature enables users to create personalized avatars and meet up with friends in virtual lounges, watch movies together in a private cinema, or attend live events like concerts and lectures. The platform is built with user comfort in mind, incorporating adjustable settings to minimize motion sickness and ensure an enjoyable experience for both VR newcomers and veterans. VRWorld operates on a model that includes both free-to-access experiences and premium content available for individual purchase or through a monthly subscription service. The subscription provides unlimited access to a growing library of premium games and experiences. With its focus on quality curation and a seamless user interface, VRWorld is your all-in-one portal to the limitless possibilities of virtual reality.",
+    "size": 120,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 44,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/bitcoin.png",
+    "title": "CryptoTrack",
+    "companyName": "BlockLabs",
+    "id": 28,
+    "description": "CryptoTrack is a comprehensive and user-friendly cryptocurrency portfolio tracker and market analysis tool designed for both novice investors and seasoned traders. The app provides real-time price data for thousands of cryptocurrencies, including Bitcoin, Ethereum, and countless altcoins, sourced from major global exchanges to ensure accuracy. Its central feature is the powerful portfolio management system, which allows you to track all your crypto holdings in one place. You can manually add transactions or securely connect your exchange and wallet accounts via API keys for automatic syncing, giving you a clear and up-to-the-minute overview of your total portfolio value, profit/loss, and individual asset performance. CryptoTrack offers advanced charting tools with a range of technical indicators, allowing you to analyze price trends and market movements. A key differentiator is its customizable alert system. You can set highly specific alerts for price changes, volume spikes, or market cap milestones, ensuring you never miss a critical market event. The app also serves as a news aggregator, curating the latest headlines and analysis from trusted crypto media outlets, helping you stay informed on developments that could impact your investments. For deeper insights, CryptoTrack provides detailed information on each coin, including its market cap, circulating supply, historical data, and a brief overview of its project and technology. The interface is clean and highly customizable, with a sleek dark mode and the ability to create multiple watchlists for coins you're interested in. Security is a top priority; API keys are stored with encryption on your device, and the app does not require withdrawal permissions. The free version offers robust tracking for a limited number of assets, while a premium subscription unlocks unlimited portfolio connections, advanced alerts, and in-depth analytics. CryptoTrack is the essential toolkit for navigating the fast-paced world of cryptocurrency.",
+    "size": 25,
+    "reviews": 16500,
+    "ratingAvg": 4.3,
+    "downloads": 70,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/football.png",
+    "title": "ScoreLive",
+    "companyName": "SportsHub",
+    "id": 29,
+    "description": "ScoreLive is the ultimate companion for sports fans, delivering real-time scores, in-depth statistics, and breaking news for leagues and competitions around the world. The app provides comprehensive coverage of a vast array of sports, including football, basketball, baseball, soccer, hockey, tennis, and more. Its core feature is the lightning-fast live score updates, ensuring you're the first to know about every goal, point, and final result. You can follow your favorite teams, leagues, and players to create a personalized feed that prioritizes the content that matters most to you. The app's customizable alert system is a fan favorite, allowing you to receive push notifications for game start times, key plays, score changes, and final outcomes, so you can stay in the loop even when you can't watch the game. Beyond scores, ScoreLive offers a rich statistical experience. Dive deep into live match data with detailed play-by-play commentary, team line-ups, player stats, and head-to-head analysis. The app also provides pre-game insights, including standings, form guides, and injury reports, to get you ready for the action. For post-game analysis, ScoreLive delivers timely video highlights of key moments and full-game recaps. The integrated news section aggregates top stories from trusted sports journalists, keeping you informed about trades, transfers, and off-the-field drama. The interface is clean and easy to navigate, allowing you to switch between sports and games effortlessly. A 'My Games' tab consolidates all the matches you're following into a single screen for quick access. ScoreLive is free and ad-supported, with an optional premium subscription that removes ads and unlocks advanced features like player performance alerts and deeper historical data. For any passionate sports fan, ScoreLive is the indispensable app for following the action.",
+    "size": 40,
+    "reviews": 24000,
+    "ratingAvg": 4.7,
+    "downloads": 130,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 11500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/robot.png",
+    "title": "AutoBot",
+    "companyName": "RoboSoft",
+    "id": 30,
+    "description": "AutoBot is a powerful and user-friendly automation tool that helps you streamline your digital life by connecting your apps and devices to work together seamlessly. The app allows you to create automated workflows, or 'Bots,' that handle repetitive tasks, saving you time and effort. With an intuitive, visual interface, you don't need to be a programmer to build sophisticated automations. Simply choose a trigger (e.g., receiving an email with a specific subject) and an action (e.g., saving the attachment to a cloud storage folder). AutoBot integrates with hundreds of popular apps and services, including email clients, social media platforms, cloud storage providers, project management tools, and smart home devices. You can create Bots to automatically post your new blog articles to Twitter, get a notification when an important client emails you, or turn on your smart lights when you arrive home. The possibilities are virtually endless. The app features a gallery of pre-built Bot templates for common use cases, making it easy to get started. For advanced users, AutoBot supports multi-step workflows with conditional logic, allowing you to create automations that make decisions based on specific criteria. For example, you could build a Bot that sorts incoming receipts into different folders based on the vendor's name. The app also includes a robust reminder system that can be integrated into your workflows, such as setting a reminder to follow up on an email a few days after it's sent. AutoBot runs reliably in the background, executing your tasks without requiring manual intervention. The free tier allows you to run a limited number of active Bots, while a premium subscription unlocks unlimited Bots, multi-step workflows, and faster execution times. AutoBot is the personal assistant you've always wanted, working tirelessly to make your life more efficient and connected.",
+    "size": 32,
+    "reviews": 11200,
+    "ratingAvg": 4.4,
+    "downloads": 50,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "image": "https://parspng.com/wp-content/uploads/2023/08/airpodspng.parspng.com-8.png",
+    "title": "PodPlay",
+    "companyName": "AudioWave",
+    "id": 31,
+    "description": "PodPlay is a beautifully designed and feature-rich podcast player built for discovery and an exceptional listening experience. The app provides access to a massive library of millions of podcasts, from chart-topping hits to niche indie shows, all in one place. Its powerful search and discovery engine helps you find your next favorite podcast with ease. PodPlay’s AI-based recommendations analyze your listening habits to suggest new shows and episodes tailored to your interests. The app also features curated collections and charts to highlight trending and noteworthy content. The listening experience is highly customizable. PodPlay offers variable playback speed, a 'Trim Silence' feature to shorten pauses, and a 'Volume Boost' to enhance quiet recordings, allowing you to tailor the audio to your preference. A robust sleep timer lets you drift off to your favorite shows. One of the app's standout features is its queue management system, which makes it simple to build a playlist of upcoming episodes. You can easily reorder your queue and set episodes to download automatically for offline listening, perfect for commutes or travel. PodPlay also supports chapter markers, allowing you to jump to specific topics within an episode, and can display show notes and links right in the player. The app syncs your subscriptions, playback progress, and queue across all your devices, so you can seamlessly switch from listening on your phone to your tablet or desktop. The interface is clean and intuitive, with a focus on beautiful podcast artwork and easy navigation. PodPlay is free with unobtrusive ads, while a premium subscription removes all ads, unlocks advanced themes, and provides cloud storage for your own audio files. For both casual listeners and podcast connoisseurs, PodPlay offers the perfect blend of power and simplicity.",
+    "size": 28,
+    "reviews": 13400,
+    "ratingAvg": 4.5,
+    "downloads": 62,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/color/256/idea.png",
+    "title": "InspireMe",
+    "companyName": "Visionary Apps",
+    "id": 32,
+    "description": "InspireMe is a daily source of motivation and positivity, designed to help you start your day with a positive mindset and stay focused on your goals. The app delivers a curated selection of motivational quotes, positive affirmations, and thought-provoking insights from some of the world's greatest thinkers, leaders, and innovators. At its core, InspireMe is about building a simple, powerful habit of positive thinking. You can customize the app to deliver your daily dose of inspiration at a time that suits you, whether it's first thing in the morning, during your lunch break, or as a final positive thought before bed. The app features a beautiful, minimalist interface with stunning background images that complement the uplifting messages. You can browse through thousands of quotes organized by category, such as perseverance, self-love, success, and mindfulness, making it easy to find the right words for any situation. A key feature is the ability to create your own personalized affirmations. You can write and record your own positive statements and set reminders to review them throughout the day, reinforcing your goals and building self-confidence. InspireMe also includes a simple goal-setting module where you can define your key objectives and link them to relevant quotes and affirmations, creating a powerful feedback loop of motivation and action. You can save your favorite quotes to a personal collection and easily share them with friends and family via social media or messaging apps to spread the positivity. The app also includes a widget for your home screen, so you can see a fresh dose of inspiration every time you unlock your phone. InspireMe is free to use, with an optional premium subscription that unlocks exclusive content categories, advanced customization options, and an ad-free experience. It is the perfect pocket companion for anyone seeking to cultivate a more positive outlook and stay motivated on their journey of personal growth.",
+    "size": 12,
+    "reviews": 7200,
+    "ratingAvg": 4.2,
+    "downloads": 28,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 3400 }
+    ]
   }
 ]
