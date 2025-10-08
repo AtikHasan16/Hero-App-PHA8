@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Container from "../Components/Container";
 import InstalledCard from "../Components/InstalledCard";
+import { ArrowBigDown } from "lucide-react";
 
 const Installation = () => {
   const [showInstalled, setShowInstalled] = useState([]);
@@ -11,7 +12,7 @@ const Installation = () => {
   }, []);
   const handleSort = (type) => {
     setSort(type);
-    if (sort === "High - Low") {
+    if (sort === "Low - High") {
       const sortedCard = showInstalled.sort((a, b) => b.size - a.size);
       setShowInstalled(sortedCard);
     } else {
@@ -33,7 +34,11 @@ const Installation = () => {
             ({showInstalled.length}) Apps Found
           </h2>
           <div className="dropdown dropdown-center">
-            <div tabIndex={0} role="button" className="btn m-1 rounded-xl">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn m-1 rounded-xl bg-blue-800 text-white"
+            >
               {sort ? sort : "Sort by Size"} <ArrowBigDown />
             </div>
             <ul
@@ -42,18 +47,18 @@ const Installation = () => {
             >
               <li>
                 <button
-                  onClick={() => handleSort("High - Low")}
+                  onClick={() => handleSort("Low - High")}
                   className="btn  btn-ghost"
                 >
-                  Size : High - Low
+                  Size : Low - High
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleSort("Low - High")}
+                  onClick={() => handleSort("High - Low")}
                   className="btn btn-ghost"
                 >
-                  Size : low - High
+                  Size : High - Low
                 </button>
               </li>
             </ul>
