@@ -2,11 +2,18 @@ import Container from "../Components/Container";
 import { Search } from "lucide-react";
 import { useLoaderData } from "react-router";
 import AppCard from "../Components/AppCard";
+import { useState } from "react";
 
 const Apps = () => {
   const loaderData = useLoaderData();
   const allAppData = loaderData.data;
   // console.log(allAppData);
+
+  const [search, setSearch] = useState("");
+  const rawText = search.trim().toLocaleLowerCase();
+  const searchedCard = allAppData.filter((appCard) =>
+    appCard.title.trim().toLocaleLowerCase().includes(rawText)
+  );
 
   return (
     <div className="bg-gray-100 font-inter py-20 ">
@@ -21,12 +28,13 @@ const Apps = () => {
           </div>
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-semibold">
-              ({allAppData.length}) Apps Found
+              ({searchedCard.length}) Apps Found
             </h2>
             <label className="input">
               <Search color="gray"></Search>
               <input
-                className=""
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
                 type="search"
                 placeholder="Search App"
                 name="search"
@@ -35,7 +43,7 @@ const Apps = () => {
             </label>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6 ">
-            {allAppData.map((data) => (
+            {searchedCard.map((data) => (
               <AppCard data={data} key={data.id}></AppCard>
             ))}
           </div>
