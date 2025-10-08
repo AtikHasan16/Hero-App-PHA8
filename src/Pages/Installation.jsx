@@ -64,17 +64,25 @@ const Installation = () => {
             </ul>
           </div>
         </div>
-        {/* Installed App  card*/}
-        <div className="space-y-6 py-10">
-          {showInstalled.map((installData) => (
-            <InstalledCard
-              key={installData.id}
-              installData={installData}
-              showInstalled={showInstalled}
-              setShowInstalled={setShowInstalled}
-            ></InstalledCard>
-          ))}
-        </div>
+
+        {showInstalled.length > 0 ? (
+          <div className="space-y-6 py-10">
+            {showInstalled.map((installData) => (
+              <InstalledCard
+                key={installData.id}
+                installData={installData}
+                showInstalled={showInstalled}
+                setShowInstalled={setShowInstalled}
+              ></InstalledCard>
+            ))}
+          </div>
+        ) : (
+          <div className="h-[calc(100dvh-700px)]">
+            <h1 className="text-center py-20 text-3xl font-bold text-gray-400">
+              No App Found
+            </h1>
+          </div>
+        )}
       </Container>
     </div>
   );
