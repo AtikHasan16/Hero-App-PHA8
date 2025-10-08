@@ -42,11 +42,19 @@ const Apps = () => {
               />
             </label>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6 ">
-            {searchedCard.map((data) => (
-              <AppCard data={data} key={data.id}></AppCard>
-            ))}
-          </div>
+          {searchedCard.length === 0 ? (
+            <div className="h-[calc(100dvh-700px)]">
+              <h1 className="text-center py-20 text-3xl font-bold text-gray-400">
+                No App Found
+              </h1>
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6">
+              {searchedCard.map((data) => (
+                <AppCard data={data} key={data.id}></AppCard>
+              ))}
+            </div>
+          )}
         </div>
       </Container>
     </div>
