@@ -34,7 +34,7 @@ const InstalledCard = ({ installData, showInstalled, setShowInstalled }) => {
             <div className="flex flex-col sm:flex-row justify-between gap-4">
               <p className="btn  text-green-700 border-0 rounded-2xl">
                 <img src={download} width={"14px"} alt="" />{" "}
-                {installData.downloads}
+                {installData.downloads} M
               </p>
               <p className="btn text-orange-400 border-0 rounded-2xl">
                 <img src={ratingImg} width={"14px"} alt="" />{" "}

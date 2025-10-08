@@ -24,7 +24,7 @@ const AppCard = ({ data }) => {
           <h2 className="text-xl font-semibold">{title}</h2>
           <div className="flex justify-between">
             <p className="btn text-green-700 border-0 rounded-2xl">
-              <img src={download} width={"14px"} alt="" /> {downloads}
+              <img src={download} width={"14px"} alt="" /> {downloads} M
             </p>
             <p className="btn text-orange-400 border-0 rounded-2xl">
               <img src={ratingImg} width={"14px"} alt="" /> {ratingAvg}
