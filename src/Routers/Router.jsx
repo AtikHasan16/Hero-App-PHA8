@@ -28,7 +28,11 @@ const router = createBrowserRouter([
         hydrateFallbackElement: <LoaderIcon></LoaderIcon>,
       },
       { path: "/installation", element: <Installation></Installation> },
-      { path: "/appDetails/:appId", element: <AppDetails /> },
+      {
+        path: "/appDetails/:appId",
+        element: <AppDetails />,
+        errorElement: <ErrorPage></ErrorPage>,
+      },
       { path: "*", element: <ErrorPage></ErrorPage> },
     ],
   },

@@ -4,6 +4,7 @@ import Banner from "../Components/Banner";
 import { useLoaderData } from "react-router";
 import AppCard from "../Components/AppCard";
 import AppContainer from "../Components/AppContainer";
+import { ToastContainer } from "react-toastify";
 
 const Home = () => {
   const appData = useLoaderData();
@@ -17,6 +18,7 @@ const Home = () => {
         key={appForHome.length}
         appForHome={appForHome}
       ></AppContainer>
+      
     </div>
   );
 };

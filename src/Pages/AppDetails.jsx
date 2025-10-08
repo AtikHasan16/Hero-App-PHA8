@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Container from "../Components/Container";
 import { useLocation } from "react-router";
 import download from "../assets/icon-downloads.png";
@@ -12,13 +12,17 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { AlertOctagon } from "lucide-react";
+import { Bounce, toast, ToastContainer } from "react-toastify";
+import { setDataToLocal } from "../LocalDB/LocalStorage";
 
 const AppDetails = () => {
   const location = useLocation();
-  const [install, setInstall] = useState(false);
+  //   console.log(location.state);
+
   const {
     title,
-    // id,
+    id,
     image,
     downloads,
     ratingAvg,
@@ -28,10 +32,20 @@ const AppDetails = () => {
     ratings,
     size,
   } = location.state;
+
+  const [install, setInstall] = useState(false);
+  useEffect(() => {
+    const localData = JSON.parse(localStorage.getItem("apps")) || [];
+    const alreadyInstalled = localData.some((data) => data.id === id);
+    setInstall(alreadyInstalled);
+  }, [id]);
+  //   console.log(installedIds);
+
   const handleInstall = () => {
+    setDataToLocal(location.state);
     setInstall(true);
-    setDataToLocal();
   };
+
   return (
     <div className=" bg-gray-100 py-20 font-inter">
       <Container>
@@ -80,7 +94,9 @@ const AppDetails = () => {
                   className="btn btn-xl border-0 bg-linear-30 from-blue-800 to-purple-700  rounded-xl p-0 shadow-md"
                 >
                   <span
-                    className={`skeleton btn btn-xl text-white bg-transparent border-0
+                    className={`btn btn-xl text-white bg-transparent border-0 ${
+                      install ? "text-gray-500" : "skeleton"
+                    } 
                       `}
                   >
                     {install ? "Installed" : `Install Now (${size}MB)`}
@@ -128,6 +144,7 @@ const AppDetails = () => {
           <p className="font-semibold text-[#627382]">{description}</p>
         </div>
       </Container>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
