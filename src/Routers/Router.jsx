@@ -7,6 +7,7 @@ import Installation from "../Pages/Installation";
 import axios from "axios";
 import AppDetails from "../Pages/AppDetails";
 import { LoaderIcon } from "lucide-react";
+import LoadingSpinner from "../LoadingPage/LoadingSpinner";
 
 const router = createBrowserRouter([
   {
@@ -19,13 +20,13 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>,
         loader: () => axios("/SoftwareData.json"),
-        hydrateFallbackElement: <h1 className="h-screen">Loading...</h1>,
+        hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>,
       },
       {
         path: "/apps",
         element: <Apps></Apps>,
         loader: () => axios("/SoftwareData.json"),
-        hydrateFallbackElement: <LoaderIcon></LoaderIcon>,
+        hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>,
       },
       { path: "/installation", element: <Installation></Installation> },
       {

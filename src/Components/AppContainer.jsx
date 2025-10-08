@@ -20,7 +20,7 @@ const AppContainer = ({ appForHome }) => {
         </div>
         <div className=" mt-10 text-center">
           <Link
-            to={""}
+            to={"/apps"}
             className="btn btn-xl text-white rounded-xl bg-linear-60 from-blue-800 to-purple-700"
           >
             Show All
