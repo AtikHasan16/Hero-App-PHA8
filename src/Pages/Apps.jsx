@@ -10,7 +10,7 @@ const Apps = () => {
   // console.log(allAppData);
   const [loading, setLoading] = useState(false);
   const [search, setSearch] = useState("");
-  console.log(loading);
+  // console.log(loading);
 
   const handleSearch = (e) => {
     setSearch(e.target.value);

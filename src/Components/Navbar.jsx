@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="bg-white">
       <Container>
-        <div className="navbar px-0 bg-base-100 font-inter">
+        <div className="navbar py-4 px-0 bg-base-100 font-inter">
           <div className="navbar-start">
             <div className="dropdown pr-4">
               <div
@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link
               to={"https://github.com/AtikHasan16"}
               target={"_blank"}
-              className="btn bg-linear-120 from-purple-600 to-blue-800 text-white"
+              className="btn rounded-lg p-6 bg-linear-120 from-purple-600 to-blue-800 text-white text-lg hover:scale-105 transition duration-300 hover:bg-linear-90 hover:from-black"
             >
               <Github /> Contribute
             </Link>

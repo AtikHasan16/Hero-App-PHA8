@@ -26,7 +26,7 @@ const Banner = () => {
                 <Link
                   to={"https://play.google.com/store/games?hl=en&pli=1"}
                   target={"_blank"}
-                  className="btn btn-xl rounded-xl font-bold text-gray-600 hover:scale-105 hover:bg-blue-800 hover:text-white transition duration-500"
+                  className="btn btn-xl rounded-xl font-bold text-gray-600 hover:scale-105 hover:bg-linear-60  hover:from-blue-800 hover:to-purple-900 hover:text-white transition duration-500 shadow-md"
                 >
                   <img src={google} alt="" />
                   Google Play
@@ -34,7 +34,7 @@ const Banner = () => {
                 <Link
                   to={"https://www.apple.com/app-store/"}
                   target={"_blank"}
-                  className="btn btn-xl rounded-xl font-bold text-gray-600 hover:scale-105 hover:bg-blue-800 hover:text-white transition duration-500"
+                  className="btn btn-xl rounded-xl font-bold text-gray-600 hover:scale-105 hover:bg-blue-800 hover:text-white transition duration-500 shadow-md"
                 >
                   <img src={appStore} alt="" />
                   App Store
