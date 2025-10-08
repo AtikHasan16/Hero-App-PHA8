@@ -66,7 +66,7 @@ const Installation = () => {
         </div>
 
         {showInstalled.length > 0 ? (
-          <div className="space-y-6 py-11">
+          <div className="space-y-6 py-13">
             {showInstalled.map((installData) => (
               <InstalledCard
                 key={installData.id}
