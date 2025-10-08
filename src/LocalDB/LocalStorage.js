@@ -12,7 +12,7 @@ const setDataToLocal = (data) => {
   //   console.log(data);
 
   const existingData = getDataFromLocal();
-//   console.log(existingData);
+  //   console.log(existingData);
 
   const matchedData = existingData.some((exData) => exData.id === data.id);
   if (matchedData) {
@@ -23,4 +23,10 @@ const setDataToLocal = (data) => {
   }
 };
 
-export { setDataToLocal, getDataFromLocal };
+const updateToLocal = (appId) => {
+  const getData = getDataFromLocal();
+  const updateData = getData.filter((data) => data.id !== appId);
+  localStorage.setItem("apps", JSON.stringify(updateData));
+};
+
+export { setDataToLocal, getDataFromLocal, updateToLocal };

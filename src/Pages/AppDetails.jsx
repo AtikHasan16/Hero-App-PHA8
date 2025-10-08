@@ -63,7 +63,7 @@ const AppDetails = () => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        theme: "light",
+        theme: "dark",
         transition: Bounce,
       });
       setDataToLocal(location.state);
@@ -169,7 +169,6 @@ const AppDetails = () => {
           <p className="font-semibold text-[#627382]">{description}</p>
         </div>
       </Container>
-      <ToastContainer></ToastContainer>
     </div>
   );
 };
