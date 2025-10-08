@@ -42,8 +42,33 @@ const AppDetails = () => {
   //   console.log(installedIds);
 
   const handleInstall = () => {
-    setDataToLocal(location.state);
-    setInstall(true);
+    if (install) {
+      toast.warning("Your App is already Installed!", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+    } else {
+      toast.success("Successfully Installed the App!", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+      setDataToLocal(location.state);
+      setInstall(true);
+    }
   };
 
   return (
