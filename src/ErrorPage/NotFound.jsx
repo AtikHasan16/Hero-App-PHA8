@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import noFountImg from "../assets/error-404.png";
+import noFountImg from "../assets/App-Error.png";
 
 const NotFound = () => {
   return (

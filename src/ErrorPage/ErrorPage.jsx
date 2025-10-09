@@ -1,5 +1,5 @@
 import React from "react";
-import errorBg from "../assets/App-Error.png";
+import errorBg from "../assets/error-404.png";
 import { Link } from "react-router";
 const ErrorPage = () => {
   return (
