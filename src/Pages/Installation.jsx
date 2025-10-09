@@ -70,7 +70,7 @@ const Installation = () => {
         </div>
 
         {showInstalled.length > 0 ? (
-          <div className="space-y-6 py-13">
+          <div className="space-y-6 py-13 min-h-[calc(100dvh-724px)]">
             {showInstalled.map((installData) => (
               <InstalledCard
                 key={installData.id}
@@ -81,7 +81,7 @@ const Installation = () => {
             ))}
           </div>
         ) : (
-          <div className="h-[calc(100dvh-700px)]">
+          <div className="min-h-[calc(100dvh-700px)]">
             <h1 className="text-center py-20 text-3xl font-bold text-gray-400">
               No App Found
             </h1>

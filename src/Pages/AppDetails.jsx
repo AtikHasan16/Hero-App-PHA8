@@ -72,7 +72,7 @@ const AppDetails = () => {
   };
 
   return (
-    <div className=" bg-gray-100 py-20 font-inter">
+    <div className=" bg-gray-100 py-20 font-inter min-h-[calc(100dvh-428px)]">
       <Container>
         <div className="pb-10">
           <div className="flex flex-col md:flex-row justify-start gap-10">
