@@ -35,6 +35,7 @@ const router = createBrowserRouter([
         loader: async () => {
           return new Promise((resolve) => setTimeout(resolve, 300));
         },
+        hydrateFallbackElement: <LoadingSpinner></LoadingSpinner>,
         element: <Installation></Installation>,
       },
       {
