@@ -12,7 +12,7 @@ const Installation = () => {
   }, []);
   const handleSort = (type) => {
     setSort(type);
-    if (sort === "Low - High") {
+    if (type === "High - Low") {
       const sortedCard = showInstalled.sort(
         (a, b) => b.downloads - a.downloads
       );
@@ -51,18 +51,18 @@ const Installation = () => {
             >
               <li>
                 <button
-                  onClick={() => handleSort("Low - High")}
+                  onClick={() => handleSort("High - Low")}
                   className="btn  btn-ghost"
                 >
-                  Download : Low - High
+                  Download : High - Low
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleSort("High - Low")}
+                  onClick={() => handleSort("Low - High")}
                   className="btn btn-ghost"
                 >
-                  Download : High - Low
+                  Download : Low - High
                 </button>
               </li>
             </ul>
